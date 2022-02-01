@@ -1,0 +1,105 @@
+:root {
+  --highlight-color: #ffc0cb;
+  --main-text-color: #8b4513;
+  --margin-auto: 0 auto;
+}
+
+body {
+  margin: 100px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+h1,
+h2,
+h3 {
+  margin: var(--margin-auto);
+}
+
+span {
+  justify-content: center;
+  margin-top: 65px;
+}
+
+a {
+  border-radius: 50px;
+  margin: 20px;
+  padding: 15px 25px;
+}
+
+.introduction-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.introduction-content a {
+  text-decoration: none;
+}
+
+.about-me-link {
+  background: var(--highlight-color);
+  box-shadow: -1px 4px 20px 3px #ffc0cb87;
+  color: var(--main-text-color);
+}
+
+.contact-me-link {
+  border: 1px solid var(--highlight-color);
+  color: var(--highlight-color);
+}
+
+a.back-home-link {
+  color: var(--highlight-color);
+  margin-bottom: 0;
+}
+
+.about-me-page {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.introduction-about-me {
+  background: var(--highlight-color);
+  border-radius: 9px;
+  color: var(--main-text-color);
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 10px;
+  padding: 20px;
+}
+
+#contact-me-email {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.send-to-message {
+  margin: 0;
+}
+
+a.my-email {
+  color: var(--highlight-color);
+  padding: 0 5px;
+  margin: 0;
+  text-decoration: none;
+}
+
+a.my-email:hover {
+  color: var(--main-text-color);
+  text-decoration: underline;
+}
