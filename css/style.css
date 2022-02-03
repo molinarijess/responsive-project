@@ -9,8 +9,7 @@
 
 body {
   font-family: "Inconsolata", monospace;
-  margin: 100px auto;
-  max-width: 800px;
+  max-width: 100%;
   text-align: center;
 }
 
@@ -48,6 +47,16 @@ a {
 
 a:hover {
   color: var(--link-color);
+}
+
+.logo-img {
+  width: 45px;
+}
+
+.introduction-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
 }
 
 .introduction-content {
