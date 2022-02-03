@@ -19,9 +19,45 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <a href="index.html" class="back-home-link">back to homepage</a>
-    <h1>About Me</h1>
-    <h3>Front-end developer student from São Paulo, Brazil</h3>
+    <nav
+      class="navbar navbar-expand-sm navbar-light fixed-top p-0 w-100 h-10"
+      style="background-color: #f9e4d4"
+    >
+      <div class="container-fluid justify-content-start flex-nowrap">
+        <a class="navbar-brand m-0 logo-link" href="#">
+          <img src="img/logo.png" alt="mug" class="img-fluid logo-img" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon m-0"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a
+              class="nav-link active m-0 pe-4"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+            <a class="nav-link m-0 pe-4" href="about-me.html">Meet me</a>
+            <a class="nav-link m-0 pe-4" href="about-me.html#contact-me-email"
+              >Lets chat</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="introduction-text">
+      <h1>About Me</h1>
+      <h3>Front-end developer student from São Paulo, Brazil</h3>
+    </div>
     <section class="about-me-page">
       <p class="introduction-about-me">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam

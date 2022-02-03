@@ -50,7 +50,11 @@ a:hover {
 }
 
 .logo-img {
-  width: 10px;
+  width: 45px;
+}
+
+.logo-link {
+  cursor: none;
 }
 
 .introduction-text {
