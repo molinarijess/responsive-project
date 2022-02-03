@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
+
 :root {
   --highlight-color: #ffc0cb;
   --main-text-color: #8b4513;
@@ -5,6 +7,7 @@
 }
 
 body {
+  font-family: "Inconsolata", monospace;
   margin: 100px auto;
   max-width: 800px;
   text-align: center;
