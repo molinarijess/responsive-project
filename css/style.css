@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
 
 :root {
-  --highlight-color: #ffc0cb;
-  --main-text-color: #8b4513;
+  --highlight-color: #9c0f48;
+  --link-color: #470d21;
+  --main-text-color: #f9e4d4;
   --margin-auto: 0 auto;
 }
 
@@ -29,6 +30,7 @@ h3 {
 h1,
 h2,
 h3 {
+  color: var(--link-color);
   margin: var(--margin-auto);
 }
 
@@ -41,16 +43,17 @@ a {
   border-radius: 50px;
   margin: 20px;
   padding: 15px 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-color);
 }
 
 .introduction-content {
   display: flex;
   justify-content: center;
   margin-top: 40px;
-}
-
-.introduction-content a {
-  text-decoration: none;
 }
 
 .about-me-link {
@@ -96,13 +99,13 @@ a.back-home-link {
 }
 
 a.my-email {
-  color: var(--highlight-color);
+  color: var(--main-text-color);
   padding: 0 5px;
   margin: 0;
   text-decoration: none;
 }
 
 a.my-email:hover {
-  color: var(--main-text-color);
+  color: var(--link-color);
   text-decoration: underline;
 }
