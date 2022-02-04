@@ -49,6 +49,29 @@ a:hover {
   color: var(--link-color);
 }
 
+hr {
+  border-color: var(--main-text-color);
+  border-radius: 35px;
+  border-style: solid;
+  border-width: 5px 6px 0px 2px;
+  height: 30px !important;
+  overflow: visible;
+  margin: 1rem 0;
+  background-color: transparent;
+  opacity: 0.7;
+}
+
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: var(--main-text-color);
+  border-width: 0 2px 5px 4px;
+  border-radius: 35px;
+}
+
 .navbar-background {
   background-color: var(--main-text-color);
 }
@@ -97,9 +120,21 @@ a.navbar-link {
   color: var(--highlight-color);
 }
 
-a.back-home-link {
-  color: var(--highlight-color);
-  margin-bottom: 0;
+.projects-img {
+  border: 10px var(--main-text-color);
+  width: 1920px;
+}
+
+.projects-name {
+  font-size: 36px;
+  padding: 12px;
+  text-shadow: 1px 1px 2px var(--highlight-color);
+}
+
+.projects-description {
+  font-size: 16px;
+  text-align: start;
+  line-height: 1.5;
 }
 
 .about-me-page {
