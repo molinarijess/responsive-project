@@ -49,6 +49,10 @@ a:hover {
   color: var(--link-color);
 }
 
+.navbar-background {
+  background-color: var(--main-text-color);
+}
+
 .logo-img {
   width: 45px;
 }
