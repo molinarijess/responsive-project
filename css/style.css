@@ -205,3 +205,51 @@ a.navbar-link:hover {
   color: var(--link-color);
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h2,
+  .projects-name {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  .introduction-content {
+    margin-top: 15px;
+    justify-content: space-evenly;
+  }
+
+  .about-me-link,
+  .contact-me-link,
+  a.project-link {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
+
+  .projects-description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .projects-img {
+    display: none;
+  }
+
+  .project-display {
+    height: fit-content;
+  }
+
+  .project-display img {
+    object-fit: contain;
+  }
+
+  #contact-me-email {
+    padding: 10px;
+  }
+}
